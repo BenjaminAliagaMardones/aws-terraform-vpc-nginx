@@ -40,3 +40,7 @@ terraform destroy
 ```
 
 Después del apply, obtén la IP pública en la consola AWS y abre `http://<IP>`
+
+## Resultado
+
+<img width="1470" height="929" alt="Screenshot 2026-05-23 at 3 07 21 AM" src="https://github.com/user-attachments/assets/82b36c5d-069b-40df-8e06-a3f4e7f3fbdd" />
