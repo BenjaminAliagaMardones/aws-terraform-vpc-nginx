@@ -1,0 +1,40 @@
+# Archivos de estado de Terraform (contienen datos sensibles: IPs, IDs, secretos)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Directorio con providers y módulos descargados (pesado, se regenera con `terraform init`)
+.terraform/
+.terraform.lock.hcl
+
+# Variables con secretos (credenciales, tokens, passwords)
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Planes de Terraform (pueden contener secretos)
+*.tfplan
+*.plan
+
+# Logs de crash
+crash.log
+crash.*.log
+
+# Llaves SSH y certificados
+*.pem
+*.key
+*.pub
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+*.swo
