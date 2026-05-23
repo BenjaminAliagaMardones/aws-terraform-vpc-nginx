@@ -1,5 +1,14 @@
 # Infraestructura AWS con Terraform
 
+
+# Infraestructura AWS con Terraform
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
 Proyecto educativo que despliega una infraestructura básica en AWS usando **Terraform**. Levanta una VPC, subnets, routing, security group y un servidor EC2 con nginx — todo de forma automática con un solo comando.
 
 
