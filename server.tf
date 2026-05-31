@@ -9,3 +9,11 @@ resource "aws_instance" "server" {
 
   user_data = file("${path.module}/setup.sh")
 }
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-state-godiano"
+    key = "terraform.tfstate"
+    region = "us-east-1"
+  }
+}
