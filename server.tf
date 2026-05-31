@@ -13,7 +13,7 @@ resource "aws_instance" "server" {
 terraform {
   backend "s3" {
     bucket = "terraform-state-godiano"
-    key = "terraform.tfstate"
+    key    = "terraform.tfstate"
     region = "us-east-1"
   }
 }
