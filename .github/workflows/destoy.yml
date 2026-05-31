@@ -3,6 +3,10 @@ name: 'Terraform Destroy'
 on:
   workflow_dispatch: # Esto activa un botón manual en la web de GitHub
 
+concurrency:
+  group: terraform-refs/heads/main
+  cancel-in-progress: false
+
 jobs:
   destroy:
     runs-on: ubuntu-latest
