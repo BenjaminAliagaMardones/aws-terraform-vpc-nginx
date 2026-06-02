@@ -6,17 +6,17 @@ on:
   pull_request:
     branches: [ "main" ]
 
-concurrency:
-  group: terraform-${{ github.ref }}
-  cancel-in-progress: false
-
-workflow_dispatch:
+  workflow_dispatch:
     inputs:
       environment:
         description: 'Entorno a desplegar'
         required: false
         default: 'main'
         type: choice
+
+concurrency:
+  group: terraform-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   terraform:
