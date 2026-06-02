@@ -38,7 +38,7 @@ Ambos workflows usan el mismo grupo de concurrencia, por lo que nunca corren en 
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
 
-El estado de Terraform se guarda de forma remota en un bucket S3 (`terraform-state-godiano`), compartido entre la maquina local y GitHub Actions.
+El estado de Terraform se guarda de forma remota en un bucket S3 (`terraform-state-godiano`), compartido entre tu maquina local y GitHub Actions.
 
 ## Como usarlo localmente
 
